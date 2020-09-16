@@ -1,0 +1,25 @@
+{
+    "name": "google-widget",
+    "version": "1.0.0",
+    "description": "widget that uses the Google Business API to pull live reviews, and can be embedded into any website with HTML and Javascript",
+    "main": "reviews.js",
+    "scripts": {
+        "test": "echo \"Error: no specified test\" && exit 1",
+        "push": "git push -u origin master",
+        "start": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js",
+        "production": "webpack --progress -p"
+    },
+
+    "keywords": [
+        "Google Place API",
+        "reviews"
+    ],
+
+    "author": "Brennan Smallwood",
+    "license": "MIT",
+    "devDependencies": {
+        "html-webpack-plugin": "4.4.1",
+        "webpack": "4.44.1",
+        "webpack-dev-server": "3.11.0"
+    }
+}
