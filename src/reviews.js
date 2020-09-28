@@ -15,5 +15,7 @@ function getReviews() {
     }).then(function(allReviews) {
         console.log(allReviews);
 
+
+
     })
 }
